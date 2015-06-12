@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Rich Oliveri", "Oleg Barenboim", "Jason Frey"]
   spec.email         = ["roliveri@redhat.com", "chessbyte@gmail.com", "fryguy9@gmail.com"]
 
-  spec.summary       = %q{Ruby class to read large files on Linux platforms.}
-  spec.description   = %q{Ruby class to read large files on Linux platforms.}
+  spec.summary       = %q{Ruby class to read large files on 32 bit Linux platforms.}
+  spec.description   = %q{Ruby class to read large files on 32 bit Linux platforms.}
   spec.homepage      = "http://github.com/ManageIQ/large_file_linux"
   spec.license       = "MIT"
 
