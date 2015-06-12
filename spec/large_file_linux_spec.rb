@@ -7,6 +7,6 @@ describe LargeFileLinux do
 
   it '#read' do
     l = LargeFileLinux.new(__FILE__, "r")
-    expect(l.read).to start_with("require 'spec_helper'")
+    expect(l.read(21)).to eq("require 'spec_helper'")
   end
 end
