@@ -6,12 +6,12 @@ require 'large_file_linux/version'
 Gem::Specification.new do |spec|
   spec.name          = "large_file_linux"
   spec.version       = LargeFileLinux::VERSION
-  spec.authors       = ["Oleg Barenboim"]
-  spec.email         = ["chessbyte@gmail.com"]
+  spec.authors       = ["Rich Oliveri", "Oleg Barenboim", "Jason Frey"]
+  spec.email         = ["roliveri@redhat.com", "chessbyte@gmail.com", "fryguy9@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Ruby class to read large files on Linux platforms.}
+  spec.description   = %q{Ruby class to read large files on Linux platforms.}
+  spec.homepage      = "http://github.com/ManageIQ/large_file_linux"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
