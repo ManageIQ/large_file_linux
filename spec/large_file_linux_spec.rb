@@ -5,7 +5,8 @@ describe LargeFileLinux do
     expect(LargeFileLinux::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it '#read' do
+    l = LargeFileLinux.new(__FILE__, "r")
+    expect(l.read).to start_with("require 'spec_helper'")
   end
 end

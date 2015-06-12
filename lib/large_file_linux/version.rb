@@ -1,3 +1,3 @@
-module LargeFileLinux
+class LargeFileLinux
   VERSION = "0.1.0"
 end
