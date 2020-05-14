@@ -4,7 +4,6 @@ Ruby class to read large files on 32 bit Linux platforms.
 
 [![Gem Version](https://badge.fury.io/rb/large_file_linux.svg)](http://badge.fury.io/rb/large_file_linux)
 [![Build Status](https://travis-ci.org/ManageIQ/large_file_linux.svg)](https://travis-ci.org/ManageIQ/large_file_linux)
-[![Dependency Status](https://gemnasium.com/ManageIQ/large_file_linux.svg)](https://gemnasium.com/ManageIQ/large_file_linux)
 
 ## Installation
 
